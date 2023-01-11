@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>To Do List</h1>
+
+    <input id="newItem" type="text" placeholder="write your new item">
+    <button onclick="addItme()">Add item</button>
+
+    <ul id="list">
+        <li class="done">arreglar el cuarto</li>
+        <li class="done">desayunar cereal</li>
+        <li class="new">ir a la biblioteca</li>
+        <li class="done">ir a clase de algoritmos</li>
+    </ul>
+
+    <style>
+        .new{
+            color: green;
+        }
+        .done{
+            color: gray;
+            text-decoration: line-through;
+        }
+    </style>
+</body>
+</html>
